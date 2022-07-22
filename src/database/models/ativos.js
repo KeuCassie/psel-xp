@@ -7,7 +7,7 @@ const ativoSchema = (sequelize, DataTypes) => {
     },
     qtdeAtivo: DataTypes.INTEGER,
     valor: DataTypes.DECIMAL
-  }, { timestamps: false, tableName: 'Ativo' })
+  }, { timestamps: false, tableName: 'Ativos' })
 
   return ativoTable
 };

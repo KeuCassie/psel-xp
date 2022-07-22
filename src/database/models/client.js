@@ -9,7 +9,7 @@ const clientSchema = (sequelize, DataTypes) => {
     emailCliente: DataTypes.STRING,
     passwordCliente: DataTypes.STRING,
     saldo: DataTypes.DECIMAL
-  }, { timestamps: false, tableName: 'Client' })
+  }, { timestamps: false, tableName: 'Clients' })
 
   return clientTable
 };
