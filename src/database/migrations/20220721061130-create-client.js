@@ -20,6 +20,10 @@ module.exports = {
         allowNull: false,
         type: Sequelize.STRING
       },
+      cpfCliente: {
+        allowNull: false,
+        type: Sequelize.NUMBER
+      },
       saldo: {
         type: Sequelize.DECIMAL
       },
