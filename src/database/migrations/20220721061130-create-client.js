@@ -22,7 +22,7 @@ module.exports = {
       },
       cpfCliente: {
         allowNull: false,
-        type: Sequelize.NUMBER
+        type: Sequelize.STRING
       },
       saldo: {
         type: Sequelize.DECIMAL

@@ -9,6 +9,13 @@ const ativoSchema = (sequelize, DataTypes) => {
     valor: DataTypes.DECIMAL
   }, { timestamps: false, tableName: 'Ativos' })
 
+  clientTable.associate = models => {
+    ativoTable.hasMany(models.ClienteAtivos, {
+      foreignKey: 'ativosId',
+      as: 'ClienteAtivo'
+    })
+  };
+
   return ativoTable
 };
 
