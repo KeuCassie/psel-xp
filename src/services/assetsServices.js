@@ -6,7 +6,7 @@ const getAssets = async (id) => {
         attributes: ['id', 'qtdeAtivo', 'valor'],
     });
 
-    return asset
+    return asset;
 };
 
 /* const toBuyInvest = async ({ clientId, ativosId, qtdeAtivo }) => {
