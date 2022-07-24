@@ -1,5 +1,5 @@
 {
-  "name": "psel-xp",
+  "name": "psel_db",
   "version": "1.0.0",
   "description": "Template repository to hold linter configurations",
   "main": "src/server.js",

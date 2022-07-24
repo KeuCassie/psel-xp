@@ -1,11 +1,11 @@
 const express = require('express');
-const router = require('./routers/router');
+const { routers } = require('./routers/router');
 const error = require('./middlewares/error');
 
 const app = express();
 
 app.use(express.json());
-app.use(router);
+app.use(routers);
 
 app.use(error);
 

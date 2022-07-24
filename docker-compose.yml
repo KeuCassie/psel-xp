@@ -39,7 +39,7 @@ services:
 
   # Serviço que irá rodar o banco de dados
   db:
-    container_name: psel_db
+    container_name: xp-psel
     image: mysql:8.0.21
     restart: always
     # Lista de portas mapeadas de dentro para fora do container
