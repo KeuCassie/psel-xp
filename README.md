@@ -49,6 +49,8 @@ O projeto pode ser construído com npm ou yarn, então escolha uma das abordagen
 
 O projeto usa [Sequelize ORM](https://sequelize.org/), [Sequelize CLI](https://www.npmjs.com/package/sequelize-cli), [MySQL2](https://www.npmjs.com/package/mysql2), [Express js](https://expressjs.com/), [Nodemon](https://www.npmjs.com/package/nodemon), [ExpressJS Async Errors](https://www.npmjs.com/package/express-async-errors), [Dotenv](https://www.npmjs.com/package/dotenv), [EsLint](https://eslint.org/).
 
+Nota - Projeto roda em docker-compose já configurado.
+
 ### Como instalar
 
 - Para baixar o projeto siga as instruções abaixo:
