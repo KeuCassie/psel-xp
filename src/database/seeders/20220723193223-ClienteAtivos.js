@@ -7,10 +7,12 @@ module.exports = {
         {
           clientId: 1,
           ativosId: 1,
+          quantidade: 10,
         },
         {
           clientId: 2,
           ativosId: 2,
+          quantidade: 20,
         },
 
       ], { timestamps: false });

@@ -5,13 +5,13 @@ module.exports = {
     await queryInterface.bulkInsert('Ativos',
       [{
         id: 1,
-        qtdeAtivo: 1,
-        valor: 'samgrooves@gmail.com',
+        qtdeAtivo: 800,
+        valor: 29.90,
       },
       {
         id: 2,
-        qtdeAtivo: 1,
-        valor: 'samshaw@gmail.com',
+        qtdeAtivo: 900,
+        valor: 69.90,
       },
       ], { timestamps: false });
   },

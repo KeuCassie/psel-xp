@@ -1,7 +1,8 @@
 const clienteAtivosSchema = (sequelize, DataTypes) => {
   const clienteAtivosTable = sequelize.define("ClienteAtivo", {
     clientId: DataTypes.INTEGER,
-    ativosId: DataTypes.INTEGER
+    ativosId: DataTypes.INTEGER,
+    quantidade: DataTypes.INTEGER,
   }, { timestamps: false, tableName: 'ClienteAtivos' })
 
   clienteAtivosTable.associate = models => {

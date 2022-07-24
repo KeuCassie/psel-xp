@@ -16,8 +16,12 @@ module.exports = {
         references: {
           model: 'Ativos',
           key: 'id',
-        }
-      }
+        },
+      },
+        quantidade: {
+          allowNull: false,
+          type: Sequelize.INTEGER
+        },
     });
   },
   async down(queryInterface, Sequelize) {
