@@ -1,6 +1,6 @@
-# PROJETO API APLICATIVO DE INVESTIMENTOS
+<h1 align="center">PROJETO API APLICATIVO DE INVESTIMENTOS</h1>
 
-<h1 align="center">APLICAÇÃO BACK END</h1>
+<h2 align="center">APLICAÇÃO BACK END</h2>
 
 ## Descrição do Projeto
 <p align="center">Neste desafio foi construído um banco de dados MySQL usando Sequelize ORM com Node.js e Express.
