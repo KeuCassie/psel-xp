@@ -20,14 +20,6 @@ const getAssets = async (id) => {
     return asset;
 };
 
-/* const toBuyInvest = async ({ clientId, ativosId, qtdeAtivo }) => {
-    const cod = await ClienteAtivo.findOne({
-        where: { clientId, ativosId },
-    });
-
-    const 
-}; */
-
 module.exports = { 
     getClient,
     getAssets,

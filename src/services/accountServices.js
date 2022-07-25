@@ -1,12 +1,12 @@
 const { Client } = require('../database/models');
 
-const toDeposit = async ( id, deposito) => {
+const toDeposit = async ({id, valor}) => {
     const client = await Client.findOne({
         attributes: ['saldo'],
         where: { id: id },
     });
 
-    const depositSum = Number(client.saldo) + Number(deposito);
+    const depositSum = Number(client.saldo) + Number(valor);
     const totalValor = await Client.update({saldo: depositSum}, {where: { id } } );
 
     if (!totalValor) {
