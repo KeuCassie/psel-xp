@@ -18,7 +18,8 @@ Projeto desenvolvido para o teste prático da XP.</p>
 - [ ] Login
 - [ ] Cadastro de ações
 - [ ] Busca por cliente
-- [ ] Busca por ações
+- [x] Busca por ações
+- [x] Saldo do Cliente
 - [ ] Atualização de depósito
 - [ ] Atualização de saque
 - [ ] Atualização de compra

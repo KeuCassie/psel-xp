@@ -14,6 +14,11 @@ module.exports = {
           ativosId: 2,
           quantidade: 20,
         },
+        {
+          clientId: 1,
+          ativosId: 2,
+          quantidade: 30,
+        },
 
       ], { timestamps: false });
   },
